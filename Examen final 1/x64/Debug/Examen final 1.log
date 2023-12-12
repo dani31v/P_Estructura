@@ -1,0 +1,6 @@
+﻿  Almacen.cpp
+  Source.cpp
+D:\Users\0249950\Desktop\Examen final 1\Source.cpp(3,13): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código...
+D:\Users\0249950\Desktop\Examen final 1\Almacen.cpp(47): warning C4715: 'Almacen::Buscar': no todas las rutas de acceso de control devuelven un valor
+  Examen final 1.vcxproj -> D:\Users\0249950\Desktop\Examen final 1\x64\Debug\Examen final 1.exe
