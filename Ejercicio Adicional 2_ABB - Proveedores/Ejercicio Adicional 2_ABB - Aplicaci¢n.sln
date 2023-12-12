@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ejercicio Adicional 2_ABB - Aplicación", "Ejercicio Adicional 2_ABB - Aplicación.vcxproj", "{F1697275-E006-4384-A6C0-DD97B8A5D3C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1697275-E006-4384-A6C0-DD97B8A5D3C0}.Debug|x64.ActiveCfg = Debug|x64
+		{F1697275-E006-4384-A6C0-DD97B8A5D3C0}.Debug|x64.Build.0 = Debug|x64
+		{F1697275-E006-4384-A6C0-DD97B8A5D3C0}.Debug|x86.ActiveCfg = Debug|Win32
+		{F1697275-E006-4384-A6C0-DD97B8A5D3C0}.Debug|x86.Build.0 = Debug|Win32
+		{F1697275-E006-4384-A6C0-DD97B8A5D3C0}.Release|x64.ActiveCfg = Release|x64
+		{F1697275-E006-4384-A6C0-DD97B8A5D3C0}.Release|x64.Build.0 = Release|x64
+		{F1697275-E006-4384-A6C0-DD97B8A5D3C0}.Release|x86.ActiveCfg = Release|Win32
+		{F1697275-E006-4384-A6C0-DD97B8A5D3C0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {944DA4C4-7D1A-4691-BF0B-5631AD9F05DD}
+	EndGlobalSection
+EndGlobal
