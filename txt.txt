@@ -1,0 +1,63 @@
+﻿Árboles
+—-----------------------------------------------------------------------------------
+Es una estructura NO lineal, no fundamental, homogénea y finita.
+Es un conjunto finito de uno o más nodos, tales que:
+-Existe un nodo especial llamado raíz
+-Cada nodo se divide en “m”, m>=0, conjuntos disjuntos denominados A1, A2, ... , Am, cada uno de los cuales es a su vez un árbol. Estos árboles se llaman subárboles de raíz.
+
+
+Como se puede observar, la recursividad es una característica inherente a los árboles. La definición misma es recursiva. Se define árbol en términos de árbol.
+
+
+NODO: A cada elemento de la estructura se le llama nodo. Cada nodo tiene UN ascendiente llamado “padre” y cero o más descendientes llamados “hijos”. A los hijos de un mismo padre se les suele llamar “hermanos”.
+RAIZ: Es el único nodo especial debido a que no tiene padre.
+HOJA: Es un nodo que no tiene hijos.
+INTERIOR: Todos los nodos que no son la raíz, ni son hojas, se llaman nodos interiores.
+CAMINO: Es la secuencia de nodos por los que hay que pasar para llegar de un nodo a otro.
+RAMA: Un camino que lleva hasta una hoja se llama rama.
+ALTURA O PROFUNDIDAD: Es el número de nodos de la rama más larga del árbol.
+PESO: Es el número de hojas del árbol.
+GRADO DE UN NODO: Es el número de hijos que tiene el nodo.
+GRADO DEL ÁRBOL: Es el grado del nodo de mayor grado.
+NIVEL: Cada nodo tiene asociado un nivel. El nivel de la raíz es 0. El nivel de cualquier nodo que no es raíz, es el nivel de su padre más 1.
+
+
+*ÁRBOL BINARIO: Es un árbol en el que cada nodo puede tener 0, 1 o 2 hijos, conocidos como subárbol izquierdo y subárbol derecho. Es decir, un árbol de orden 2.
+
+
+BALANCEADO: Se dice que un árbol binario está balanceado o equilibrado, cuando la diferencia de altura entre su subárbol izquierdo y su subárbol derecho es máximo 1. Puesto que cada nodo del árbol es a su vez un árbol, esta condición debe cumplirse para cada nodo.
+COMPLETO: Un árbol binario es completo cuando cada uno de sus nodos tiene exactamente 2 hijos.
+SIMILAR: Se dice que dos árboles binarios son similares si tienen la misma estructura.
+EQUIVALENTE: Dos árboles binarios son equivalentes si son similares y tienen la misma información.
+
+
+—----------------------------------------------------------------------------
+Grafos
+—----------------------------------------------------------------------------
+Es un dato estructurado no lineal, no fundamental, homogéneo y finito.
+Es un conjunto finito de Nodos y Arcos o de Vértices y Aristas. Suele decirse también que es el par G=(N,A), donde N es el conjunto finito de nodos y A es el conjunto (colección) de arcos.
+
+
+NODO: Elemento básico de información de un grafo. 
+ARCO: Liga que une dos nodos del grafo, o bien, pareja de vértices. También puede almacenar información. 
+NODOS ADYACENTES: Dos nodos son adyacentes si hay un arco que los una. 
+CAMINO: Secuencia de nodos, en la que cada par de nodos son adyacentes. 
+CAMINO SIMPLE: Es un camino en el que todos los nodos contenidos son diferentes, con la posible excepción del primero y el último, que podrían ser el mismo. 
+GRAFO NO DIRIGIDO: Los arcos en el grafo no tienen una dirección particular, es decir, son bidireccionales. Por ejemplo; si los nodos A y B son adyacentes, es igual ir de A a B que de B a A.
+
+
+GRAFO DIRIGIDO: También es llamado digrafo. Los arcos tienen una dirección asociada. El primer elemento del arco es el origen y el segundo es considerado el destino. Por ejemplo: el arco A B es diferente del arco B A.
+GRAFO PONDERADO: Cada arco del grafo tiene asociado un peso o valor. Generalmente el peso está asociado con costos, distancias y similares.
+GRAFO CONECTADO: Un grafo no dirigido es conectado si para cualquier par de nodos hay un camino que los une.
+
+
+GRADO DE UN NODO: Es la cantidad de arcos que inciden en ese nodo. En el caso de digrafos se distingue entre el grado de entrada y el grado de salida. El primero define la cantidad de arcos en los que el nodo es el destino y el segundo es la cantidad de arcos donde es el origen.
+GRADO DE UN GRAFO: Es el máximo grado de sus nodos.
+
+
+REPRESENTACIÓN DE GRAFOS TDA
+
+
+Matriz de Adyacencias:
+Consiste básicamente en un arreglo bidimensional de tamaño n x n, donde n es la máxima cantidad de nodos en el grafo. Cada casilla de la matriz será llenada con verdadero o falso, según exista o no un arco que conecte los dos nodos involucrados. Para el caso de de los grafos no dirigidos, la matriz será simétrica; sin embargo, esto no ocurre en los digrafos, donde se debe considerar la dirección explícita de cada uno de los arcos. Para el caso de los grafos ponderados, la matriz puede llenarse con el peso asociado a cada uno de los arcos.
+Lista de Adyacencias: En esta representación, generalmente dinámica, se trata de evitar el problema de restricción de espacio. Básicamente consiste en definir una lista enlazada de nodos y, para cada uno de ellos, enlazar una lista con los nodos adyacentes. La idea es similar a la de la matriz; sin embargo, no define las casillas de los nodos que no tienen un arco común, ahorrando un poco de espacio.
