@@ -1,0 +1,2 @@
+C:\Users\Mario Ruiz\Documents\Ximena\Tercer semestre\Estructura de Datos\Ejercicio19_ABB_Insertar\x64\Debug\Ejercicio19_ABB_Insertar.exe
+C:\Users\Mario Ruiz\Documents\Ximena\Tercer semestre\Estructura de Datos\Ejercicio19_ABB_Recorrer\x64\Debug\Ejercicio19_ABB_Insertar.exe
